@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const [name, setName] = useState("Shiv")
   return (
     <>
       <div>
@@ -24,6 +24,7 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
+        <span>created by {name}</span>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
